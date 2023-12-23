@@ -1,0 +1,118 @@
+body {
+    background-color: #f0d274;
+}
+
+i {
+    color: white;
+}
+.Background {
+    height: 800px;
+    margin: 0;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-bottom: 2px solid chocolate;
+}
+
+#main {
+    margin-top: 450px;
+}
+
+p {
+    color: white;
+	text-shadow: 1px 1px chocolate;
+}
+
+#quote {
+    font-size: 25px;
+    color: white;
+	text-shadow: 1px 1px chocolate;
+}
+
+#collapsibleNavbar {
+	padding: -1px 20px;
+	font-size: 25px;
+}
+
+#naV {
+    border-bottom: 2px solid chocolate;
+}
+
+.mt-2 {
+	margin-top: 2;
+}
+
+li {
+    padding-right: 50px;
+	list-style-type: none;
+}
+
+.tourist-spots img {
+	height: 170px;
+}
+
+.tourist-spots2 img {
+	height: 400px;
+}
+
+#logo {
+    border: none;
+	width: 60px;
+	height: 60px;
+
+}
+
+#logoname {
+	font-family: monospace;
+	text-shadow: 2px 3px purple;
+	width: 60px;
+	height: 60px;
+
+}
+
+#placer {
+	color: white;
+	text-shadow: 1px 2px chocolate;
+}
+
+.reacts {
+    background-color: chocolate;
+    border: 1px solid chocolate;
+    margin-top: 3px;
+    margin-left: 0px;
+}
+
+span {
+    color: brown;
+}
+
+img {
+    border: 2px solid brown;
+    width: 180px;
+}
+
+textarea {
+    border: 1px solid brown;
+}
+
+textarea::placeholder {
+    color: chocolate;
+}
+
+label {
+    color: white;
+	text-shadow: 1px 1px chocolate;
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+    text-shadow: 3px 3px chocolate;
+}
+
+#cForm {
+    border-top: 2px solid chocolate;
+}
+
+#iCon {
+    border: none;
+}

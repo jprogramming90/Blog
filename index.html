@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fdee16d41f.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="blog.css">
+	<title>Activities Page - Responsive Page Layout</title>
+</head>
+<body class="Background" style="background-image: url('Images/brown.jpg');">
+
+	<nav class="navbar navbar-expand-sm bg-dark fixed-top navbar-dark" id="naV">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="" id="logoname"><img id="logo" src="Images/logo.png"><i>RRCJJ</i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav text-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#welcome">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+
+          </div>
+        </div>
+      </nav>
+
+      <br id="welcome">
+         <br>
+            <br>
+               <br>
+
+ <br>
+      <br>
+           <br><br><br>
+<h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;RRCJJ's Blog</h1>
+    <p id="quote">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    To Blog is to Share, To Connect, To Create and To Inspire.</p>
+    <br>
+    <div id="main" class="container text-black py-2"><span id="blog"></span><br>
+    <h1>ALL ABOUT US</h1>
+    <br><br><br><br><br><br>
+	<div class="row text-center">
+		<div class="col-lg-3 col-6">
+			<div class="tourist-spots">
+                <h3 id="placer">Jazzy</h3>
+                <p>Name: Jazzy Patanao<br>Address: Bang-Bang Cordova Cebu</p>
+                <a href="https://www.facebook.com/rufos.lee"><button>See Blog...</button></a>
+                <br><br>
+				<img src="Images/Jazzy.jpg" alt="">
+                <br>
+                <button id="jazzyHa" class="reacts" onclick="jazzyHa()"><i class="fa-regular fa-face-laugh"></i></button> <span id="countjazzyHa"></span>
+                <button id="jazzyS" class="reacts" onclick="jazzyS()"><i class="fa-regular fa-face-sad-tear"></i></button> <span id="countjazzyS"></span>
+                <button id="jazzyHe" class="reacts" onclick="jazzyHe()"><i class="fa-regular fa-heart"></i></button> <span id="countjazzyHe"></span>
+                <button id="jazzyL" class="reacts" onclick="jazzyL()"><i class="fa-regular fa-thumbs-up"></i></button> <span id="countjazzyL"></span>   
+                <form action="action_page.php">
+                    <br>
+                    <label for="subject">Feedback:</label>
+                    <br>
+                    <textarea id="subject" name="subject" placeholder="Leave A Comment..." style="height:150px"></textarea>  
+                    <br>             
+                    <input type="submit" value="Submit">
+                  </form>
+                  <br><br>
+			</div>
+		</div>
+
+		<div class="col-lg-3 col-6">
+			<div class="tourist-spots">
+                <h3 id="placer">Robert</h3>
+                <p>Name: Robert Tiro<br>Address: Datag Cordova Cebu</p>
+                <a href="CORDOVA.html"><button>See Blog...</button></a>
+                <br><br>
+				<img src="Images/Chan.jpg" alt="">
+                <br>
+                <button id="robertHa" class="reacts" onclick="robertHa()"><i class="fa-regular fa-face-laugh"></i></button> <span id="countrobertHa"></span>
+                <button id="robertS" class="reacts" onclick="robertS()"><i class="fa-regular fa-face-sad-tear"></i></button> <span id="countrobertS"></span>
+                <button id="robertHe" class="reacts" onclick="robertHe()"><i class="fa-regular fa-heart"></i></button> <span id="countrobertHe"></span>
+                <button id="robertL" class="reacts" onclick="robertL()"><i class="fa-regular fa-thumbs-up"></i></button> <span id="countrobertL"></span>
+                <form action="action_page.php">
+                    <br>
+                    <label for="subject">Feedback:</label>
+                    <br>
+                    <textarea id="subject" name="subject" placeholder="Leave A Comment..." style="height:150px"></textarea>  
+                    <br>             
+                    <input type="submit" value="Submit">
+                  </form>
+                  <br><br>
+			</div>
+		</div>
+
+		<div class="col-lg-3 col-6">
+			<div class="tourist-spots">
+                <h3 id="placer">Randy</h3>
+                <p>Name:Randy Escartin <br>Address: Datag Cordova Cebu</p>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Frandyescartin.github.io%2FMyBlogs%2F%3Ffbclid%3DIwAR2OxZF_1Zq4GAacRl1p_uMDuwoAbI9hpjzTg8IuRHUuQda30HxNfm3xf3Y&h=AT10ueq4xS-fwsTq2zhzf2nR2BVEQJtOrI3AQCOi2_XHHVnfnPVPRqdkUJayTvCgr7aG6gyW-OWju2uSmRZeZhYkoqBWf1Uu7UZA1N_hpSESEalGPV-JT3mvVjTEgSzTdcBOUA"><button id="">See Blog...</button></a>
+                <br><br>
+				<img src="Images/Robert.jpg" alt="">
+                <br>
+                <button id="randyHa" class="reacts" onclick="randyHa()"><i class="fa-regular fa-face-laugh"></i></button> <span id="countrandyHa"></span>
+                <button id="randyS" class="reacts" onclick="randyS()"><i class="fa-regular fa-face-sad-tear"></i></button> <span id="countrandyS"></span>
+                <button id="randyHe" class="reacts" onclick="randyHe()"><i class="fa-regular fa-heart"></i></button> <span id="countrandyHe"></span> 
+                <button id="randyL" class="reacts" onclick="randyL()"><i class="fa-regular fa-thumbs-up"></i></button> <span id="countrandyL"></span>
+                <form action="action_page.php">
+                    <br>
+                    <label for="subject">Feedback:</label>
+                    <br>
+                    <textarea id="subject" name="subject" placeholder="Leave A Comment..." style="height:150px"></textarea>  
+                    <br>             
+                    <input type="submit" value="Submit">
+                  </form>
+                  <br><br>
+			</div>
+		</div>
+
+		<div class="col-lg-3 col-6">
+			<div class="tourist-spots">
+                <h3 id="placer">Jerald</h3>
+                <p>Name: Jerald Nunez<br>Address: Datag Cordova Cebu</p>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fmyblog2023xx123.blogspot.com%2F%3Ffbclid%3DIwAR2aZJyUuqO69Mg6aIX17BC_XJLDMd1kQ1194_yWlMTxI766rgPpOqFqmEg&h=AT10ueq4xS-fwsTq2zhzf2nR2BVEQJtOrI3AQCOi2_XHHVnfnPVPRqdkUJayTvCgr7aG6gyW-OWju2uSmRZeZhYkoqBWf1Uu7UZA1N_hpSESEalGPV-JT3mvVjTEgSzTdcBOUA"><button>See Blog...</button></a>
+                <br><br>
+				<img src="Images/Jerald.jpg" alt="">
+                <br>
+                <button id="jeraldHa" class="reacts" onclick="jeraldHa()"><i class="fa-regular fa-face-laugh"></i></button> <span id="countjeraldHa"></span>
+                <button id="jeraldS" class="reacts" onclick="jeraldS()"><i class="fa-regular fa-face-sad-tear"></i></button> <span id="countjeraldS"></span>
+                <button id="jeraldHe" class="reacts" onclick="jeraldHe()"><i class="fa-regular fa-heart"></i></button> <span id="countjeraldHe"></span>
+                <button id="jeraldL" class="reacts" onclick="jeraldL()"><i class="fa-regular fa-thumbs-up"></i></button> <span id="countjeraldL"></span>
+                <form action="action_page.php">
+                    <br>
+                    <label for="subject">Feedback:</label>
+                    <br>
+                    <textarea id="subject" name="subject" placeholder="Leave A Comment..." style="height:150px"></textarea>  
+                    <br>             
+                    <input type="submit" value="Submit">
+                  </form>
+                  <br><br>
+			</div>
+		</div>
+
+        <div class="col-lg-3 col-6">
+			<div class="tourist-spots">
+                <h3 id="placer">Christian</h3>
+                <p>Name: Christian Ibo<br>Address: Cogon Cordova Cebu</p>
+                <a href="https://www.facebook.com/cj.ibo.58"><button>See Blog...</button></a>
+                <br><br>
+				<img src="Images/Randy.jpg" alt="">
+                <br>
+                <button id="chanHa" class="reacts" onclick="chanHa()"><i class="fa-regular fa-face-laugh"></i></button> <span id="countchanHa"></span>
+                <button id="chanS" class="reacts" onclick="chanS()"><i class="fa-regular fa-face-sad-tear"></i></button> <span id="countchanS"></span>
+                <button id="chanHe" class="reacts" onclick="chanHe()"><i class="fa-regular fa-heart"></i></button> <span id="countchanHe"></span>
+                <button id="chanL" class="reacts" onclick="chanL()"><i class="fa-regular fa-thumbs-up"></i></button> <span id="countchanL"></span>
+                <form action="action_page.php">
+                    <br>
+                    <label for="subject">Feedback:</label>
+                    <br>
+                    <textarea id="subject" name="subject" placeholder="Leave A Comment..." style="height:150px"></textarea>  
+                    <br>             
+                    <input type="submit" value="Submit">
+                  </form>
+                  <br><br>
+			</div>
+		</div>
+
+		<div class="container"> <br>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="tourist-spots2">
+				<img id="iCon" src="Images/icon1nobg.png" alt="" class="w-100">
+			</div>
+		</div>
+
+		<div class="col-lg-4 text-center">
+					<div class="tourist-spots2">
+						<br>
+            <br>
+            <br>
+						<h3 id=placer>Team RRCJJ's Dream</h3>
+						<br>
+						<p>Our Team Dreaming about going to these places someday and we all know that it will turn into Reality, we will continue dreaming 
+						as there is a saying "Dream higher than the Sky and Deeper than the Ocean" char. </p>
+			</div>
+		</div>
+
+		<div class="col-lg-4">
+					<div class="tourist-spots2">
+				<img id="iCon" src="Images/icon2nobg.png" alt="" class="w-100">
+			</div>
+		</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<br>
+    <br>
+        <br>
+            <br>
+
+            <div id="cForm" class="text-center" style="background-image: url('Images/brown2.jpg');">
+                <h1 id="HeaderCon">Contact Us</h1>
+        
+                <br>
+                  <br>
+            <div class="text-center">
+                    <p id="contacttext">Feel Free to Contact our Team if you want to ask something</p>
+                </div>
+                    <br>
+                    <div>
+                    <p id="contacttext2">Email:jprogramming90@gmail.com <br>Team Number: 09455576047</p>
+                </div>
+                    <br>
+                    <br id="contact">
+        </div>
+            <script src="blog.js"></script>
+</body>
+</html>
